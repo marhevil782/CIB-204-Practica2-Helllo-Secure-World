@@ -12,7 +12,7 @@
 const config = {
   apiUrl: 'https://api.example.com',
   // Marcador inerte: Lab Validation lo usa para simular un hallazgo.
-  token: 'HSW_DEMO_SECRET_DO_NOT_USE',
+  token: process.env.API_TOKEN,
 };
 
 export default config;
